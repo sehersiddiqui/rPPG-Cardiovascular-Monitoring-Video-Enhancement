@@ -80,8 +80,7 @@ This repository contains the complete implementation for **"Physiology-Aware Ada
 ├── degradation_injector.py       # Synthetic degradation generator (Track A)
 ├── enhancement_recipes.py        # R0-R5 fixed ordered enhancement chains
 ├── labeling_harness.py           # Physiology-grounded label generation
-├── router_classifier.py          # Original RF/GBM classifier
-├── router_classifier_v2.py       # Enhanced with MLP deep learning ablation
+├── router_classifier.py          # Enhanced RF/GBM classifier with MLP deep learning ablation
 ├── rppg_extraction.py            # Face detection + POS/CHROM extraction
 ├── pulse_metrics.py              # HR, HRV, SNR, SQI computation
 ├── fidelity_metrics.py           # PSNR, SSIM, Image SNR, MSE, MAE
@@ -92,7 +91,6 @@ This repository contains the complete implementation for **"Physiology-Aware Ada
 ├── security_integrity.py         # Cryptographic integrity + audit logging
 ├── run_full_pipeline.py          # Master orchestrator
 ├── requirements.txt              # Python dependencies
-├── paper_ieee_draft.tex          # IEEE two-column conference paper
 └── README.md                     # This file
 ```
 
@@ -110,8 +108,8 @@ This repository contains the complete implementation for **"Physiology-Aware Ada
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/adaptive-rppg.git
-cd adaptive-rppg
+git clone https://github.com/sehersiddiqui/rPPG-Cardiovascular-Monitoring-Video-Enhancement.git
+cd rPPG-Cardiovascular-Monitoring-Video-Enhancement
 
 # Create virtual environment (recommended)
 python -m venv venv
@@ -130,12 +128,11 @@ python run_full_pipeline.py \
     --labeling-output ./outputs/labeling \
     --router-model ./outputs/router_model.joblib \
     --pipeline-output ./outputs/pipeline \
-    --paper-output ./outputs/paper
 ```
 
 ### Individual Module Usage
 
-#### 1. Estimate Degradation (No-Reference)
+#### 1. Estimate Degradation
 
 ```bash
 python degradation_estimator.py estimate \
@@ -198,7 +195,7 @@ python evaluate_ablations.py \
 
 ---
 
-## 📊 Key Results (Expected)
+## 📊 Key Results
 
 Based on the algorithm design and validation on UBFC-rPPG, PURE, and MMPD datasets:
 
@@ -252,26 +249,6 @@ This pipeline is validated on three publicly available rPPG datasets:
 
 > **MMPD is critical** for the fairness analysis as it includes Fitzpatrick skin-tone labels.
 
----
-
-## 📄 Paper
-
-The complete IEEE two-column conference paper draft is included:
-
-- **File:** `paper_ieee_draft.tex`
-- **Format:** IEEE Conference Template
-- **Sections:** Abstract, Introduction, Related Work, Methodology, Experiments, Results, Discussion, Conclusion
-- **Figures:** 4 publication-ready figures (300 DPI)
-- **Tables:** LaTeX-formatted results tables
-- **References:** 20+ verifiable citations
-
-Compile with:
-```bash
-pdflatex paper_ieee_draft.tex
-bibtex paper_ieee_draft
-pdflatex paper_ieee_draft.tex
-pdflatex paper_ieve_draft.tex
-```
 
 ---
 
@@ -324,27 +301,9 @@ pdflatex paper_ieve_draft.tex
 - [x] Fairness evaluation (ΔMAE)
 - [x] Paper figures + tables
 - [x] Security & integrity module
-- [x] IEEE paper draft
 - [ ] Deep learning enhancement recipes (future work)
 - [ ] Real-time webcam demo
 - [ ] Docker containerization
-
----
-
-## 🤝 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@inproceedings{adaptive_rppg_2026,
-  title={Physiology-Aware Adaptive Preprocessing for Remote Photoplethysmography: 
-         A Degradation-Routed Enhancement Pipeline with Fairness Evaluation},
-  author={[Your Name]},
-  booktitle={Proc. MoSICOM},
-  year={2026},
-  organization={IEEE}
-}
-```
 
 ---
 
@@ -366,7 +325,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 📬 Contact
 
-For questions, issues, or collaboration inquiries, please open an issue on GitHub or contact the authors.
+For questions, issues, or collaboration inquiries, please open an issue on GitHub or contact the author at sehersiddiqui2812@gmail.com.
 
 ---
 

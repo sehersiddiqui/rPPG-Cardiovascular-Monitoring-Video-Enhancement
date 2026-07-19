@@ -1,0 +1,22 @@
+# Adaptive rPPG Preprocessing Pipeline
+# Signal & Image Processing project (NMIMS Mumbai), MoSICom 2026
+
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+opencv-python>=4.8.0
+
+# Image quality / fidelity metrics
+scikit-image>=0.21.0
+
+# Model persistence
+joblib>=1.3.0
+
+# Visualization (for evaluate_ablations.py)
+matplotlib>=3.7.0
+
+# Optional: for rPPG-Toolbox integration (if used instead of built-in POS/CHROM)
+# torch>=2.0.0
+# torchvision>=0.15.0

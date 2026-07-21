@@ -313,16 +313,14 @@ def run_full_evaluation(
     main_table = generate_results_table(results_df)
     main_table.to_csv(output_dir / "table_main_results.csv", index=False)
     main_table.to_latex(output_dir / "table_main_results.tex", index=False, float_format="%.3f")
-    logger.info("Main results table:
-%s", main_table.to_string(index=False))
+    logger.info("Main results table:\n%s", main_table.to_string(index=False))
 
     # 2. Per-severity table
     sev_table = generate_per_severity_table(results_df)
     if not sev_table.empty:
         sev_table.to_csv(output_dir / "table_per_severity.csv", index=False)
         sev_table.to_latex(output_dir / "table_per_severity.tex", index=False)
-        logger.info("Per-severity table:
-%s", sev_table.to_string(index=False))
+        logger.info("Per-severity table:\n%s", sev_table.to_string(index=False))
 
     # 3. Figures
     plot_baseline_comparison(results_df, output_dir / "fig_baseline_comparison.png")

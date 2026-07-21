@@ -1,0 +1,19 @@
+{
+  "clean_path": "input_video_640p.mp4",
+  "degraded_path": "outputs/track_a_test/clean__noise_moderate.mp4",
+  "n_frames": 261,
+  "psnr_mean": 25.320109254774238,
+  "psnr_std": 0.010063190566535924,
+  "ssim_mean": 0.4785132650372626,
+  "ssim_std": 0.0011671013342960121,
+  "image_snr_mean": 12.585645107276658,
+  "image_snr_std": 0.01906138598107128,
+  "mse_mean": 191.01637616184192,
+  "mse_std": 0.4428253940219057,
+  "mae_mean": 11.03149484044629,
+  "mae_std": 0.013018810144391123,
+  "delta_brightness_mean": -2.214254854282657,
+  "delta_brightness_std": 0.02475852452611103,
+  "contrast_ratio_mean": 1.01337254118538,
+  "contrast_ratio_std": 0.0003950429347297665
+}

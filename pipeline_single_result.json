@@ -1,0 +1,60 @@
+[
+  {
+    "video_path": "input_video_640p.mp4",
+    "baseline_name": "raw",
+    "recipe_id": "R0",
+    "features": {
+      "video_path": "input_video_640p.mp4",
+      "noise_score": 0.0322902332206189,
+      "noise_sigma_est": 1.0332874630598048,
+      "blur_score": 0.2608231050406544,
+      "blur_laplacian_variance": 397.1681937421257,
+      "compression_score": 0.1628884158559297,
+      "compression_blockiness_raw": 0.48866524756778906,
+      "illumination_score": 0.13823674453629387,
+      "illumination_mean_luma": 110.37514114379883,
+      "illumination_direction": 0.13769420981407166,
+      "illumination_clipped_low": 0.0,
+      "illumination_clipped_high": 0.0002712673611111111,
+      "motion_score": 0.011717191835244497,
+      "motion_mean_flow_px": 0.11717191835244498,
+      "motion_max_flow_px": 0.15840643644332886
+    },
+    "hr_bpm": 112.5,
+    "hrv_rmssd_ms": 274.87370837451067,
+    "pulse_snr_db": 19.722506151128066,
+    "sqi": 0.9716048118821978,
+    "face_detection_rate": 1.0,
+    "hr_mae_vs_truth": null,
+    "processing_time_sec": 20.973843336105347
+  },
+  {
+    "video_path": "input_video_640p.mp4",
+    "baseline_name": "fixed_best",
+    "recipe_id": "R1",
+    "features": {
+      "video_path": "input_video_640p.mp4",
+      "noise_score": 0.0322902332206189,
+      "noise_sigma_est": 1.0332874630598048,
+      "blur_score": 0.2608231050406544,
+      "blur_laplacian_variance": 397.1681937421257,
+      "compression_score": 0.1628884158559297,
+      "compression_blockiness_raw": 0.48866524756778906,
+      "illumination_score": 0.13823674453629387,
+      "illumination_mean_luma": 110.37514114379883,
+      "illumination_direction": 0.13769420981407166,
+      "illumination_clipped_low": 0.0,
+      "illumination_clipped_high": 0.0002712673611111111,
+      "motion_score": 0.011717191835244497,
+      "motion_mean_flow_px": 0.11717191835244498,
+      "motion_max_flow_px": 0.15840643644332886
+    },
+    "hr_bpm": 133.59375,
+    "hrv_rmssd_ms": 206.82789409984764,
+    "pulse_snr_db": 18.128532473383544,
+    "sqi": 0.9606887129418082,
+    "face_detection_rate": 1.0,
+    "hr_mae_vs_truth": null,
+    "processing_time_sec": 30.604994773864746
+  }
+]

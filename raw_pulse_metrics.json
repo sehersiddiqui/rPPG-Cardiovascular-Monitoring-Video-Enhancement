@@ -1,0 +1,8 @@
+{
+  "hr_bpm": 168.6375,
+  "hrv_rmssd_ms": 204.53248454644282,
+  "pulse_snr_db": 19.143648057767365,
+  "sqi": 0.9571011430827533,
+  "hr_mae_vs_truth": null,
+  "hr_mape_vs_truth": null
+}

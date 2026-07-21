@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "recipe_id": "R0",
+      "hr_bpm": 112.5,
+      "pulse_snr_db": 19.723,
+      "sqi": 0.9716,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 19.3
+    },
+    {
+      "recipe_id": "R1",
+      "hr_bpm": 133.59,
+      "pulse_snr_db": 18.129,
+      "sqi": 0.9607,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 29.6
+    },
+    {
+      "recipe_id": "R2",
+      "hr_bpm": 182.81,
+      "pulse_snr_db": 19.465,
+      "sqi": 0.9829,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 21.9
+    },
+    {
+      "recipe_id": "R3",
+      "hr_bpm": 154.69,
+      "pulse_snr_db": 15.903,
+      "sqi": 0.8802,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 143.2
+    },
+    {
+      "recipe_id": "R4",
+      "hr_bpm": 140.62,
+      "pulse_snr_db": 16.614,
+      "sqi": 0.8746,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 24.8
+    },
+    {
+      "recipe_id": "R5",
+      "hr_bpm": 119.53,
+      "pulse_snr_db": 21.649,
+      "sqi": 0.9887,
+      "face_detection_rate": 1.0,
+      "disqualified": false,
+      "seconds": 23.7
+    }
+  ],
+  "winner": "R5"
+}

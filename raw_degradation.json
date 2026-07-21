@@ -1,0 +1,17 @@
+{
+  "video_path": "input_video.mp4",
+  "noise_score": 0.018904400579103912,
+  "noise_sigma_est": 0.6049408185313252,
+  "blur_score": 0.3616548091835897,
+  "blur_laplacian_variance": 124.3987284118665,
+  "compression_score": 0.07800691229509915,
+  "compression_blockiness_raw": 0.23402073688529745,
+  "illumination_score": 0.13615367614192728,
+  "illumination_mean_luma": 110.6383171081543,
+  "illumination_direction": 0.13563814759254456,
+  "illumination_clipped_low": 8.680555555555556e-06,
+  "illumination_clipped_high": 0.00024908371913580243,
+  "motion_score": 0.05977112993597984,
+  "motion_mean_flow_px": 0.5977112993597984,
+  "motion_max_flow_px": 0.8317104578018188
+}
